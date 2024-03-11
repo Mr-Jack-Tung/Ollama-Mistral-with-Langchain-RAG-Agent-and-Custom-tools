@@ -35,7 +35,6 @@ def get_all_tools():
         description="look up things in wikipedia",
         args_schema=WikiInputs,
         api_wrapper=WikipediaAPIWrapper(top_k_results=1, doc_content_chars_max=1000),
-        # return_direct=True,
         )
 
     Arxiv_tool = load_tools(
