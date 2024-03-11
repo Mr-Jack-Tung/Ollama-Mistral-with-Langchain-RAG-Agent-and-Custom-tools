@@ -33,10 +33,7 @@ agent_executor = AgentExecutor(
 
 user_input =""
 while user_input != 'exit!':
-    # print("\ntools:",tools)
     user_input = input('\n(type exit! to quit) Ask > ')
-    # print("\nuser_input:", user_input)
-
     if user_input != 'exit!':
         response = agent_executor.invoke({"input": user_input})
 
