@@ -18,7 +18,7 @@
   - chạy lệnh 'ollama list' để show các model đã load về máy
   - chạy lệnh 'ollama run mistral' để chạy model mistral vừa tải về
   - mở thêm một cửa sổ Terminal nữa để chạy source code Langchain-RAG-Agent
-  - Download source code và chạy lệnh 'python Advanced_Langchain-RAG_Agent_Custom-Tools_11Mar2024_sendto.py' và thưởng thức em Mistral nổi tiếng trên nền tảng Ollama nhé ^^
+  - Clone source code và chạy lệnh 'python Advanced_Langchain-RAG_Agent_Custom-Tools_11Mar2024_sendto.py' và thưởng thức em Mistral nổi tiếng trên nền tảng Ollama nhé ^^
 - Tìm hiểu thêm về Ollama tại trang github - https://github.com/ollama/ollama
 - Tìm hiểu thêm về Langchain Agent - https://python.langchain.com/docs/modules/agents/
 - và Custom tools cho em nó - https://python.langchain.com/docs/modules/agents/tools/custom_tools
