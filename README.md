@@ -11,6 +11,7 @@
 ## Nền tảng:
 - Cài đặt Ollama và tải xuống các model để chạy local ... thao tác khá nhanh và dễ dàng ^^ - https://ollama.com
 - Tìm hiểu thêm về Langchain Agent - https://python.langchain.com/docs/modules/agents/
+- và Custom tools cho em nó - https://python.langchain.com/docs/modules/agents/tools/custom_tools
 
 ## Screenshot
 ![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/Ollama%20Mistral%20with%20Langchain%20RAG%20Agent%20and%20Custom%20tools%20-%20Screenshot.jpg)
