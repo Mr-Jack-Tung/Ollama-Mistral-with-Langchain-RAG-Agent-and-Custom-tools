@@ -11,8 +11,8 @@
 - Thời gian vừa qua mình chợt nhận ra việc chia sẻ source code cũng là một động lực mạnh mẽ để thúc đẩy bản thân phải làm mới và tiến bộ mỗi ngày ... Việc người khác đánh giá thế nào không quan trọng bằng việc mình vượt qua được chính mình, vì vậy các bạn hãy thử trải nghiệm và share source code với mọi người nhé 😍🥳
 
 ## Nền tảng:
-- Cài đặt Ollama và tải xuống các model để chạy local ... thao tác khá nhanh và dễ dàng ^^ - https://ollama.com
-  - Download Ollama
+- Cài đặt Ollama và tải xuống các model để chạy local ... thao tác khá nhanh và dễ dàng ^^
+  - Download Ollama tại trang web https://ollama.com
   - mở một cửa Terminal để chạy Ollama
   - chạy lệnh 'ollama pull mistral' để download model mistral về máy
   - chạy lệnh 'ollama list' để show các model đã load về máy
