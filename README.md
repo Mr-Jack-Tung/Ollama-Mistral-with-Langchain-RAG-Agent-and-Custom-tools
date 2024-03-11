@@ -12,7 +12,7 @@
 
 ## Nền tảng:
 - Cài đặt Ollama và tải xuống các model để chạy local ... thao tác khá nhanh và dễ dàng ^^ - https://ollama.com
-- - Download Ollama
+  - Download Ollama
   - mở một cửa Terminal để chạy Ollama
   - chạy lệnh 'ollama pull mistral' để download model mistral về máy
   - chạy lệnh 'ollama list' để show các model đã load về máy
