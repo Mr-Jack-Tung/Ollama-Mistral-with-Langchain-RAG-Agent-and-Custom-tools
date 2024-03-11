@@ -4,7 +4,7 @@
 - End: 11Mar2024
 
 ## Lý do:
-- Một trong những trở ngại cơ bản của người bắt đầu làm AI đó là phải trả phí sử dụng ChatGPT cho OpenAI hoặc có model đủ tốt để chạy thử nghiệm. Giờ đây đã có thể chạy được các Model mới nhất trên Laptop local với tốc độ rất nhanh nhờ có Ollama nhé ^^
+- Một trong những trở ngại cơ bản của người bắt đầu làm AI đó là phải trả phí sử dụng ChatGPT cho OpenAI hoặc có model đủ tốt để chạy thử nghiệm. Giờ đây đã có thể chạy được các Model mới nhất (như Llama2, Mistral, Gemma) ngay trên Laptop local (không cần đến cả GPU) với tốc độ rất nhanh nhờ có Ollama nhé ^^
 - Khi có model đủ tốt để sử dụng, ngay cả với ChatGPT-4 phiên bản mới nhất thì đôi lúc bạn vẫn sẽ chưa hài lòng đơn giản vì ... dữ liệu huấn luyện model bị cũ do chưa kịp cập nhật, hoặc dữ liệu của cá nhân mà ChatGPT không biết được. Vậy phải làm thế nào?
 - Bạn muốn em Chatbot "của nhà trồng được" không chỉ biết tiếp chuyện với mình mà còn phải thực hiện được một số nhiệm vụ như hỗ trợ giải quyết công việc thực tế của mình? ... Đó là lúc bạn cần đến ChatAgent với các công cụ mạnh mẽ để hoàn thành công việc ^^
 
