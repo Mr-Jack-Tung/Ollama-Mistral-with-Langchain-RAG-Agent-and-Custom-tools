@@ -26,9 +26,7 @@ agent_executor = AgentExecutor(
     tools=tools, 
     memory=chat_history_memory,
     verbose=True, # ~> Speech out the thinking
-    # return_intermediate_steps=True, # ~> Return thinking process
-    handle_parsing_errors=True, 
-    # return_only_outputs=True # ~> Return only outputs for next step input
+    handle_parsing_errors=True,
     )
 
 user_input =""
