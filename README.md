@@ -23,6 +23,7 @@
 - Tìm hiểu thêm về Langchain Agent - https://python.langchain.com/docs/modules/agents/
 - và Custom tools cho em nó - https://python.langchain.com/docs/modules/agents/tools/custom_tools
 - và Conversation Memory để em nó không bị vấn đề "não cá vàng" ^^ - https://python.langchain.com/docs/modules/memory/
+- Sử dụng thêm VinAI-Translate để mở rộng khả năng làm việc với ngôn ngữ tiếng Việt - https://github.com/VinAIResearch/VinAI_Translate
 
 ## Screenshot
 #### wikipedia
