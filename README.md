@@ -23,7 +23,6 @@
 - Tìm hiểu thêm về Langchain Agent - https://python.langchain.com/docs/modules/agents/
 - và Custom tools cho em nó - https://python.langchain.com/docs/modules/agents/tools/custom_tools
 - và Conversation Memory để em nó không bị vấn đề "não cá vàng" ^^ - https://python.langchain.com/docs/modules/memory/
-- Nếu bạn muốn dùng tiếng Việt kết hợp với Ollama Mistral và Langchain thì có thể bạn sẽ nghĩ kết việc kết hợp Vin-Translate để dịch câu hỏi tiếng Việt sang tiếng Anh sau đó đưa vào ChatAgent để xử lý trả ra kết quả, rồi lại dùng Vin-Translate dịch câu trả lời sang tiếng Việt ?! ... mình đã thử và kết quả rất khả quan nhé ^^
 
 ## Screenshot
 wikipedia
@@ -31,3 +30,7 @@ wikipedia
 
 arXiv
 ![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/Ollama%20Mistral%20with%20Langchain%20RAG%20Agent%20and%20Custom%20tools%20-%20Screenshot-2.jpg)
+
+## Update 12 Mar 2024:
+Nếu bạn muốn dùng tiếng Việt kết hợp với Ollama Mistral và Langchain thì có thể bạn sẽ nghĩ kết việc kết hợp VinAI-Translate (https://github.com/VinAIResearch/VinAI_Translate) để dịch câu hỏi tiếng Việt sang tiếng Anh sau đó đưa vào ChatAgent để xử lý trả ra kết quả, rồi lại dùng VinAI-Translate dịch câu trả lời sang tiếng Việt ?! ... mình đã thử và kết quả rất khả quan nhé ^^
+
