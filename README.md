@@ -43,7 +43,7 @@ Mấy hôm vừa rồi mình nghĩ làm sao để chạy được em PhoGPT-4B-C
 #### Gồm những bước sau:
 0/ Download PhoGPT-4B-Chat.gguf (7.38 GB) tại trang https://huggingface.co/tom1669/PhoGPT-4B-Chat
 
-1/ Tạo file Modelfile với nội dung:
+1/ Tạo file Modelfile (đây là file hệ thống với định dạng text nhưng không có phần mở rộng, vậy nên có thể dùng bất cứ app nào để edit text là được) với nội dung:
 
 ![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/PhoGPT-4B-Chat-Ollama-Modelfile.jpg)
 
