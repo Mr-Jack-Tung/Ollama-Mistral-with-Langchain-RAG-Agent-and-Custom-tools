@@ -42,6 +42,7 @@ Mấy hôm vừa rồi mình nghĩ làm sao để chạy được em PhoGPT-4B-C
 
 ### Gồm những bước sau:
 0/ Download PhoGPT-4B-Chat.gguf (7.38 GB) tại trang https://huggingface.co/tom1669/PhoGPT-4B-Chat
+
 1/ Tạo file Modelfile với nội dung:
 
 ![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/PhoGPT-4B-Chat-Ollama-Modelfile.jpg)
@@ -52,4 +53,5 @@ Mấy hôm vừa rồi mình nghĩ làm sao để chạy được em PhoGPT-4B-C
 - PARAMETER stop "\<\/s\>"
 
 2/ chạy lệnh 'ollama create PhoGPT-4B-Chat.gguf -f Modelfile'
+
 3/ chạy lệnh 'ollama run PhoGPT-4B-Chat.gguf'
