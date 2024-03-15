@@ -38,14 +38,18 @@ Nếu bạn muốn dùng tiếng Việt kết hợp với Ollama Mistral và Lan
 ![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/VinAI-Translate%20with%20Ollama%20Mistral%20with%20Langchain%20RAG%20Agent%20and%20Custom%20tools%20-%20Screenshot-3.jpg)
 
 ## Update 15 Mar 2024:
-Nếu bạn muốn dùng em PhoGPT-4B-Chat trên Ollama thì cần làm những bước sau:
-1/ Download PhoGPT-4B-Chat.gguf (7.38 GB) tại trang https://huggingface.co/tom1669/PhoGPT-4B-Chat
-2/ Tạo file Modelfile với nội dung:
+Mấy hôm vừa rồi mình nghĩ làm sao để chạy được em PhoGPT-4B-Chat trên Ollama thì hay biết mấy, bởi vì muốn chạy em PhoGPT-4B-Chat thì ít nhất cũng phải chạy trên GPU 16BB trở lên. Loay hay tìm kiếm GGUF model PhoGPT-4B-Chat từ sáng đến 1PM thì may quá tìm thấy bạn Tung Nguyen (Data Scientist) có chung sở thích và bạn ấy đã convert xong modle từ MPT sang GGUF rồi ^^ (https://www.linkedin.com/posts/tungxuan0111_error-wrong-number-of-tensors-when-serving-activity-7168256575810289665-nxz0) . Ok, vậy thì tốt rồi, mình vào trang HF của bạn Tung Nguyen (https://huggingface.co/tom1669/PhoGPT-4B-Chat) và download model về và làm theo hướng dẫn trên Youtube ^^ (https://www.youtube.com/watch?v=TFwYvHZV6j0) 
+
+Gồm những bước sau:
+0/ Download PhoGPT-4B-Chat.gguf (7.38 GB) tại trang https://huggingface.co/tom1669/PhoGPT-4B-Chat
+1/ Tạo file Modelfile với nội dung:
+
+![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/PhoGPT-4B-Chat-Ollama-Modelfile.jpg)
 
 - FROM "PhoGPT-4B-Chat.gguf"
 - TEMPLATE """{{ .System }} ### Câu hỏi: {{ .Prompt }}\n### Trả lời:"""
 - PARAMETER stop "\<s\>"
 - PARAMETER stop "\<\/s\>"
 
-3/ chạy lệnh 'ollama create PhoGPT-4B-Chat.gguf -f Modelfile'
-4/ chạy lệnh 'ollama run PhoGPT-4B-Chat.gguf'
+2/ chạy lệnh 'ollama create PhoGPT-4B-Chat.gguf -f Modelfile'
+3/ chạy lệnh 'ollama run PhoGPT-4B-Chat.gguf'
