@@ -44,8 +44,8 @@ Nếu bạn muốn dùng em PhoGPT-4B-Chat trên Ollama thì cần làm những 
 
 - FROM "PhoGPT-4B-Chat.gguf"
 - TEMPLATE """{{ .System }} ### Câu hỏi: {{ .Prompt }}\n### Trả lời:"""
-- PARAMETER stop "<s>"
-- PARAMETER stop "</s>"
+- PARAMETER stop "\<s\>"
+- PARAMETER stop "\<\/s\>"
 
 3/ chạy lệnh 'ollama create PhoGPT-4B-Chat.gguf -f Modelfile'
 4/ chạy lệnh 'ollama run PhoGPT-4B-Chat.gguf'
