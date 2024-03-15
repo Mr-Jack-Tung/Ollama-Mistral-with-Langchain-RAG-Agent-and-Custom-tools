@@ -40,7 +40,7 @@ Nếu bạn muốn dùng tiếng Việt kết hợp với Ollama Mistral và Lan
 ## Update 15 Mar 2024:
 Mấy hôm vừa rồi mình nghĩ làm sao để chạy được em PhoGPT-4B-Chat trên Ollama thì hay biết mấy, bởi vì muốn chạy em PhoGPT-4B-Chat thì ít nhất cũng phải chạy trên GPU 16BB trở lên. Loay hay tìm kiếm GGUF model PhoGPT-4B-Chat từ sáng đến 1PM thì may quá tìm thấy bạn Tung Nguyen (Data Scientist) có chung sở thích và bạn ấy đã convert xong modle từ MPT sang GGUF rồi ^^ (https://www.linkedin.com/posts/tungxuan0111_error-wrong-number-of-tensors-when-serving-activity-7168256575810289665-nxz0) . Ok, vậy thì tốt rồi, mình vào trang HF của bạn Tung Nguyen (https://huggingface.co/tom1669/PhoGPT-4B-Chat) và download model về và làm theo hướng dẫn trên Youtube ^^ (https://www.youtube.com/watch?v=TFwYvHZV6j0) 
 
-Gồm những bước sau:
+### Gồm những bước sau:
 0/ Download PhoGPT-4B-Chat.gguf (7.38 GB) tại trang https://huggingface.co/tom1669/PhoGPT-4B-Chat
 1/ Tạo file Modelfile với nội dung:
 
