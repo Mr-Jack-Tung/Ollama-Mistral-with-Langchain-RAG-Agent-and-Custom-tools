@@ -60,3 +60,5 @@ Mấy hôm vừa rồi mình nghĩ làm sao để chạy được em PhoGPT-4B-C
 
 #### Update 3PM _ 15 Mar 2024
 ~> Hoặc đơn giản bạn bỏ qua tất cả các bước trên và chỉ cần gõ lệnh 'ollama pull mrjacktung/phogpt-4b-chat-gguf' để download model bằng Ollama vì mình đã upload model lên trên đó rồi nhé ^^ (https://ollama.com/mrjacktung/phogpt-4b-chat-gguf)
+
+![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/PhoGPT-4B-Chat-on-Ollama.jpg)
