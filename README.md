@@ -36,3 +36,16 @@
 Nếu bạn muốn dùng tiếng Việt kết hợp với Ollama Mistral và Langchain Agent thì có thể bạn sẽ nghĩ kết việc kết hợp VinAI-Translate (https://github.com/VinAIResearch/VinAI_Translate) để dịch câu hỏi tiếng Việt sang tiếng Anh sau đó đưa vào ChatAgent để xử lý trả ra kết quả, rồi lại dùng VinAI-Translate dịch câu trả lời sang tiếng Việt ?! ... mình đã thử và kết quả rất khả quan nhé ^^
 
 ![alt-text](https://github.com/Mr-Jack-Tung/Ollama-Mistral-with-Langchain-RAG-Agent-and-Custom-tools/blob/main/VinAI-Translate%20with%20Ollama%20Mistral%20with%20Langchain%20RAG%20Agent%20and%20Custom%20tools%20-%20Screenshot-3.jpg)
+
+## Update 15 Mar 2024:
+Nếu bạn muốn dùng em PhoGPT-4B-Chat trên Ollama thì cần làm những bước sau:
+1/ Download PhoGPT-4B-Chat.gguf (7.38 GB) tại trang https://huggingface.co/tom1669/PhoGPT-4B-Chat
+2/ Tạo file Modelfile với nội dung:
+
+- FROM "PhoGPT-4B-Chat.gguf"
+- TEMPLATE """{{ .System }} ### Câu hỏi: {{ .Prompt }}\n### Trả lời:"""
+- PARAMETER stop "<s>"
+- PARAMETER stop "</s>"
+
+3/ chạy lệnh 'ollama create PhoGPT-4B-Chat.gguf -f Modelfile'
+4/ chạy lệnh 'ollama run PhoGPT-4B-Chat.gguf'
