@@ -2,6 +2,7 @@
 - Author: Mr.Jack _ www.BICweb.vn
 - Start: 03Mar2024
 - End: 11Mar2024
+- If you like what I do, give me a star ^^ ~> ⭐
 
 ## Lý do:
 - Một trong những trở ngại cơ bản của người bắt đầu làm AI chatbot đó là phải đăng ký tài khoản, phải trả phí sử dụng ChatGPT cho OpenAI hoặc có model đủ tốt để chạy thử nghiệm. Giờ đây đã có thể chạy được các Model mới nhất (như Llama2, Codellama Vicuna, Zephyr, Yi, Phi, Solar, Mistral, Gemma) ngay trên Laptop local (không cần đến cả GPU) với tốc độ rất nhanh nhờ có Ollama, không cần phải đăng ký và đặc biệt là free nhé ^^
